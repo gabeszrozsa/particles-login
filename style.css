@@ -1,0 +1,33 @@
+body {
+  font: normal 16px Arial, Helvetica, san-serif;
+  color: #333;
+}
+
+#particles-js {
+  background-image: url('galaxy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html, body, #particles-js {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#login {
+  background: white;
+  opacity: 0.9;
+  padding: 2em;
+  border: #ccc 2px solid;
+  position: absolute;
+  top: 20%;
+  left: 50px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px #ccc solid;
+}
